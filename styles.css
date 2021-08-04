@@ -35,18 +35,13 @@ a:hover {
 
 .apps {
     display: inline-block;
-    outline: none;
-    vertical-align: middle;
-    -webkit-border-radius: 2px;
     border-radius: 2px;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 40px;
     width: 40px;
     padding: 8px;
     color: #000;
     cursor: pointer;
-    text-decoration: none;
 }
 
 .apps:hover {
@@ -83,6 +78,7 @@ a:hover {
     text-decoration: none;
     -webkit-box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
     box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
+    background: #2b7de9;
 }
 
 .logo {
@@ -396,4 +392,31 @@ a.footer_link {
     font-weight: normal;
     color: white;
     background-color: black;
+}
+
+.dRYYxd {
+    display:flex;
+    flex:0 0 auto;
+    margin-top:-5px;
+    align-items:stretch;
+    flex-direction:row;
+}
+
+.minidiv .dRYYxd {
+    margin-top:0;
+}
+
+.voiceIcon {
+    height:24px;
+    width:24px;
+    vertical-align:middle;
+}
+
+.minidiv .voiceIcon-holder {
+    line-height:32px;
+}
+
+.minidiv .voiceIcon {
+    width:20px;
+    height:20px;
 }
